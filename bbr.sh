@@ -34,9 +34,8 @@ bit=`uname -m`
 dir=`pwd`
 installbbr(){
 	#Install GCC
-	echo "
-	deb http://ftp.us.debian.org/debian/ jessie main contrib non-free
-	deb-src http://ftp.us.debian.org/debian/ jessie main contrib non-free" >> /etc/apt/sources.list 
+	echo "deb http://ftp.us.debian.org/debian/ jessie main contrib non-free" >> /etc/apt/sources.list
+	echo "deb-src http://ftp.us.debian.org/debian/ jessie main contrib non-free" >> /etc/apt/sources.list 
 	apt-get update
 	apt-get install build-essential -y
 	apt-get install make gcc-4.9 g++-4.9 g++-4.9-multilib make libelf-dev -y
