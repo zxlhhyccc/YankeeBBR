@@ -43,7 +43,7 @@ installbbr(){
 
 
 	#Download Kernel V4.10
-	wget --no-check-certificate -O libssl.deb https://raw.githubusercontent.com/xratzh/CBBR/master/debkernel/libssl1.0.0_1.0.2-1_amd64.deb
+	wget --no-check-certificate -O libssl.deb https://raw.githubusercontent.com/zxlhhyccc/CBBR/master/debkernel/libssl1.0.0_1.0.2-1_amd64.deb
         dpkg -i libssl.deb
 	wget -O headers-all.deb http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10.15/linux-headers-4.10.15-041015_4.10.15-041015.201705080411_all.deb
 	dpkg -i headers-all.deb
