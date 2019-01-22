@@ -1,4 +1,9 @@
 # YankeeBBR
+
+SSR安装参看：
+
+https://shadowsocks.be/9.html
+
 来自Loc大佬Yankee魔改的BBR的Debian一键安装包
 
 ## 安装命令
